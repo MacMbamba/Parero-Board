@@ -1087,6 +1087,90 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=conics_libs.IntLib
+ComponentDesignItemID0=Cap MLCC 0402
+ComponentSymbolReference0=Cap MLCC 0402
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=conics_libs.IntLib
+ComponentDesignItemID1=Cap MLCC 0603
+ComponentSymbolReference1=Cap MLCC 0603
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=conics_libs.IntLib
+ComponentDesignItemID2=Connector FFC_40PH CH
+ComponentSymbolReference2=Connector FFC_40PH CH
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=conics_libs.IntLib
+ComponentDesignItemID3=Connector FFC_6PH CH
+ComponentSymbolReference3=Connector FFC_6PH CH
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=conics_libs.IntLib
+ComponentDesignItemID4=Connector SD Card CH
+ComponentSymbolReference4=Connector SD Card CH
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=conics_libs.IntLib
+ComponentDesignItemID5=Connector USB-C CH
+ComponentSymbolReference5=Connector USB-C CH
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=conics_libs.IntLib
+ComponentDesignItemID6=Crystal SMD 8MHz
+ComponentSymbolReference6=Crystal SMD 8MHz
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=conics_libs.IntLib
+ComponentDesignItemID7=Diode LED R
+ComponentSymbolReference7=Diode LED R
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=conics_libs.IntLib
+ComponentDesignItemID8=MCU STM32H750IBT6
+ComponentSymbolReference8=MCU STM32H750IBT6
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=conics_libs.IntLib
+ComponentDesignItemID9=Regulator LDO AMS1117-3.3
+ComponentSymbolReference9=Regulator LDO AMS1117-3.3
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=conics_libs.IntLib
+ComponentDesignItemID10=Resistor 0402
+ComponentSymbolReference10=Resistor 0402
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=conics_libs.IntLib
+ComponentDesignItemID11=Resistor 0603
+ComponentSymbolReference11=Resistor 0603
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=conics_libs.IntLib
+ComponentDesignItemID12=Sensor MPU-6050
+ComponentSymbolReference12=Sensor MPU-6050
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=conics_libs.IntLib
+ComponentDesignItemID13=Switch SMD SPST
+ComponentSymbolReference13=Switch SMD SPST
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1100,12 +1184,138 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=ComponentLink1Description
+ParameterUpdate2=1
+ParameterName3=ComponentLink1URL
+ParameterUpdate3=1
+ParameterName4=ComponentLink2Description
+ParameterUpdate4=1
+ParameterName5=ComponentLink2URL
+ParameterUpdate5=1
+ParameterName6=Description
+ParameterUpdate6=1
+ParameterName7=Designator
+ParameterUpdate7=1
+ParameterName8=Library Reference
+ParameterUpdate8=1
+ParameterName9=Manufacturer
+ParameterUpdate9=1
+ParameterName10=Manufacturer Part Number
+ParameterUpdate10=1
+ParameterName11=Quantity
+ParameterUpdate11=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=AMS117-3.3_SOT223
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=CAP_MLCC_0402
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CAP_MLCC_0603
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CONN_CH_SMD_FPC_40P
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=CONN_CH_SMD_SD_CARD
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=CONN_CH_USB_SMD_USB
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=LED_0603
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=MPU-6050
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=RES_SMD_0402
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=RES_SMD_0603
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=STM32H750IBT6_176QFP
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=SW_SMD_SPST
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=XTAL_SMD_HCL
+ModelUpdate12=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=+3V3|NetColor=$006E6EFF
+Net2=NetName=+5|NetColor=$006E6EFF
+Net3=NetName=DISP_B0|NetColor=$00FFFF6E
+Net4=NetName=DISP_B1|NetColor=$00FFFF6E
+Net5=NetName=DISP_B2|NetColor=$00FFFF6E
+Net6=NetName=DISP_B3|NetColor=$00FFFF6E
+Net7=NetName=DISP_B4|NetColor=$00FFFF6E
+Net8=NetName=DISP_B5|NetColor=$00FFFF6E
+Net9=NetName=DISP_B6|NetColor=$00FFFF6E
+Net10=NetName=DISP_B7|NetColor=$00FFFF6E
+Net11=NetName=DISP_CLK|NetColor=$00FFFF6E
+Net12=NetName=DISP_DE|NetColor=$00FFFF6E
+Net13=NetName=DISP_EN|NetColor=$00FFFF6E
+Net14=NetName=DISP_G0|NetColor=$00FFFF6E
+Net15=NetName=DISP_G1|NetColor=$00FFFF6E
+Net16=NetName=DISP_G2|NetColor=$00FFFF6E
+Net17=NetName=DISP_G3|NetColor=$00FFFF6E
+Net18=NetName=DISP_G4|NetColor=$00FFFF6E
+Net19=NetName=DISP_G5|NetColor=$00FFFF6E
+Net20=NetName=DISP_G6|NetColor=$00FFFF6E
+Net21=NetName=DISP_G7|NetColor=$00FFFF6E
+Net22=NetName=DISP_HSYNC|NetColor=$00FFFF6E
+Net23=NetName=DISP_R0|NetColor=$00FFFF6E
+Net24=NetName=DISP_R1|NetColor=$00FFFF6E
+Net25=NetName=DISP_R2|NetColor=$00FFFF6E
+Net26=NetName=DISP_R3|NetColor=$00FFFF6E
+Net27=NetName=DISP_R4|NetColor=$00FFFF6E
+Net28=NetName=DISP_R5|NetColor=$00FFFF6E
+Net29=NetName=DISP_R6|NetColor=$00FFFF6E
+Net30=NetName=DISP_R7|NetColor=$00FFFF6E
+Net31=NetName=DISP_VSYNC|NetColor=$00FFFF6E
+Net32=NetName=SDRAM_A0|NetColor=clYellow
+Net33=NetName=SDRAM_A1|NetColor=clYellow
+Net34=NetName=SDRAM_A10|NetColor=clYellow
+Net35=NetName=SDRAM_A11|NetColor=clYellow
+Net36=NetName=SDRAM_A2|NetColor=clYellow
+Net37=NetName=SDRAM_A3|NetColor=clYellow
+Net38=NetName=SDRAM_A4|NetColor=clYellow
+Net39=NetName=SDRAM_A5|NetColor=clYellow
+Net40=NetName=SDRAM_A6|NetColor=clYellow
+Net41=NetName=SDRAM_A7|NetColor=clYellow
+Net42=NetName=SDRAM_A8|NetColor=clYellow
+Net43=NetName=SDRAM_A9|NetColor=clYellow
+Net44=NetName=SDRAM_D0|NetColor=clYellow
+Net45=NetName=SDRAM_D1|NetColor=clYellow
+Net46=NetName=SDRAM_D10|NetColor=clYellow
+Net47=NetName=SDRAM_D11|NetColor=clYellow
+Net48=NetName=SDRAM_D12|NetColor=clYellow
+Net49=NetName=SDRAM_D13|NetColor=clYellow
+Net50=NetName=SDRAM_D14|NetColor=clYellow
+Net51=NetName=SDRAM_D15|NetColor=clYellow
+Net52=NetName=SDRAM_D2|NetColor=clYellow
+Net53=NetName=SDRAM_D3|NetColor=clYellow
+Net54=NetName=SDRAM_D4|NetColor=clYellow
+Net55=NetName=SDRAM_D5|NetColor=clYellow
+Net56=NetName=SDRAM_D6|NetColor=clYellow
+Net57=NetName=SDRAM_D7|NetColor=clYellow
+Net58=NetName=SDRAM_D8|NetColor=clYellow
+Net59=NetName=SDRAM_D9|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
