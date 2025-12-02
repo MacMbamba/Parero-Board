@@ -362,9 +362,9 @@ OutputName12=Schematic Prints
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.94|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=Letter|PaperIndex=1
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.94|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=Letter|PaperIndex=1
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=D:\HardWare Reppos\ALTIUM-reppo\Documents\parero_DSP_board\MCU.SchDoc
+Configuration12_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=D:\HardWare Reppos\ALTIUM-reppo\Documents\parero_DSP_board\parero_board_schematic.SchDoc
 OutputType13=SimView Print
 OutputName13=SimView Prints
 OutputDocumentPath13=
@@ -482,6 +482,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
@@ -1100,94 +1112,28 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=conics_libs.IntLib
-ComponentDesignItemID0=Cap MLCC 0402
-ComponentSymbolReference0=Cap MLCC 0402
+ComponentDesignItemID0=Connector SD Card CH
+ComponentSymbolReference0=Connector SD Card CH
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=conics_libs.IntLib
-ComponentDesignItemID1=Cap MLCC 0603
-ComponentSymbolReference1=Cap MLCC 0603
+ComponentDesignItemID1=Filter Ferrite Bead 0805
+ComponentSymbolReference1=Filter Ferrite Bead 0805
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=conics_libs.IntLib
-ComponentDesignItemID2=Connector FFC_40PH CH
-ComponentSymbolReference2=Connector FFC_40PH CH
+ComponentDesignItemID2=Memory SDRAM W9864G6KH-6I
+ComponentSymbolReference2=Memory SDRAM W9864G6KH-6I
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=conics_libs.IntLib
-ComponentDesignItemID3=Connector FFC_6PH CH
-ComponentSymbolReference3=Connector FFC_6PH CH
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=conics_libs.IntLib
-ComponentDesignItemID4=Connector SD Card CH
-ComponentSymbolReference4=Connector SD Card CH
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=conics_libs.IntLib
-ComponentDesignItemID5=Connector USB-C CH
-ComponentSymbolReference5=Connector USB-C CH
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=conics_libs.IntLib
-ComponentDesignItemID6=Crystal SMD 8MHz
-ComponentSymbolReference6=Crystal SMD 8MHz
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=conics_libs.IntLib
-ComponentDesignItemID7=Diode LED R
-ComponentSymbolReference7=Diode LED R
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=conics_libs.IntLib
-ComponentDesignItemID8=MCU STM32H750IBT6
-ComponentSymbolReference8=MCU STM32H750IBT6
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=conics_libs.IntLib
-ComponentDesignItemID9=Regulator LDO AMS1117-3.3
-ComponentSymbolReference9=Regulator LDO AMS1117-3.3
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=conics_libs.IntLib
-ComponentDesignItemID10=Resistor 0402
-ComponentSymbolReference10=Resistor 0402
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=conics_libs.IntLib
-ComponentDesignItemID11=Resistor 0603
-ComponentSymbolReference11=Resistor 0603
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=conics_libs.IntLib
-ComponentDesignItemID12=Sensor MPU-6050
-ComponentSymbolReference12=Sensor MPU-6050
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=conics_libs.IntLib
-ComponentDesignItemID13=Switch SMD SPST
-ComponentSymbolReference13=Switch SMD SPST
-ComponentUpdate13=1
-ComponentIsDeviceSheet13=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1219,53 +1165,23 @@ ParameterName7=Designator
 ParameterUpdate7=1
 ParameterName8=Library Reference
 ParameterUpdate8=1
-ParameterName9=Manufacturer
+ParameterName9=Manufacturer 1
 ParameterUpdate9=1
-ParameterName10=Manufacturer Part Number
+ParameterName10=Manufacturer Part Number 1
 ParameterUpdate10=1
 ParameterName11=Quantity
 ParameterUpdate11=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=AMS117-3.3_SOT223
+ModelName0=CONN_CH_SMD_SD_CARD
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=CAP_MLCC_0402
+ModelName1=FBEAD_0805
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=CAP_MLCC_0603
+ModelName2=W9864G6KH-6I-TSOP54
 ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=CONN_CH_SMD_FPC_40P
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=CONN_CH_SMD_SD_CARD
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=CONN_CH_USB_SMD_USB
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=LED_0603
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=MPU-6050
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=RES_SMD_0402
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=RES_SMD_0603
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=STM32H750IBT6_176QFP
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=SW_SMD_SPST
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=XTAL_SMD_HCL
-ModelUpdate12=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1279,63 +1195,96 @@ Net2=NetName=+3V3_MCU|NetColor=$006E6EFF
 Net3=NetName=+3V3A|NetColor=$006E6EFF
 Net4=NetName=+3V3A_MCU|NetColor=$006E6EFF
 Net5=NetName=+5|NetColor=$006E6EFF
-Net6=NetName=DISP_B0|NetColor=$00FFFF6E
-Net7=NetName=DISP_B1|NetColor=$00FFFF6E
-Net8=NetName=DISP_B2|NetColor=$00FFFF6E
-Net9=NetName=DISP_B3|NetColor=$00FFFF6E
-Net10=NetName=DISP_B4|NetColor=$00FFFF6E
-Net11=NetName=DISP_B5|NetColor=$00FFFF6E
-Net12=NetName=DISP_B6|NetColor=$00FFFF6E
-Net13=NetName=DISP_B7|NetColor=$00FFFF6E
-Net14=NetName=DISP_CLK|NetColor=$00FFFF6E
-Net15=NetName=DISP_DE|NetColor=$00FFFF6E
-Net16=NetName=DISP_EN|NetColor=$00FFFF6E
-Net17=NetName=DISP_G0|NetColor=$00FFFF6E
-Net18=NetName=DISP_G1|NetColor=$00FFFF6E
-Net19=NetName=DISP_G2|NetColor=$00FFFF6E
-Net20=NetName=DISP_G3|NetColor=$00FFFF6E
-Net21=NetName=DISP_G4|NetColor=$00FFFF6E
-Net22=NetName=DISP_G5|NetColor=$00FFFF6E
-Net23=NetName=DISP_G6|NetColor=$00FFFF6E
-Net24=NetName=DISP_G7|NetColor=$00FFFF6E
-Net25=NetName=DISP_HSYNC|NetColor=$00FFFF6E
-Net26=NetName=DISP_R0|NetColor=$00FFFF6E
-Net27=NetName=DISP_R1|NetColor=$00FFFF6E
-Net28=NetName=DISP_R2|NetColor=$00FFFF6E
-Net29=NetName=DISP_R3|NetColor=$00FFFF6E
-Net30=NetName=DISP_R4|NetColor=$00FFFF6E
-Net31=NetName=DISP_R5|NetColor=$00FFFF6E
-Net32=NetName=DISP_R6|NetColor=$00FFFF6E
-Net33=NetName=DISP_R7|NetColor=$00FFFF6E
-Net34=NetName=DISP_VSYNC|NetColor=$00FFFF6E
-Net35=NetName=SDRAM_A0|NetColor=clYellow
-Net36=NetName=SDRAM_A1|NetColor=clYellow
-Net37=NetName=SDRAM_A10|NetColor=clYellow
-Net38=NetName=SDRAM_A11|NetColor=clYellow
-Net39=NetName=SDRAM_A2|NetColor=clYellow
-Net40=NetName=SDRAM_A3|NetColor=clYellow
-Net41=NetName=SDRAM_A4|NetColor=clYellow
-Net42=NetName=SDRAM_A5|NetColor=clYellow
-Net43=NetName=SDRAM_A6|NetColor=clYellow
-Net44=NetName=SDRAM_A7|NetColor=clYellow
-Net45=NetName=SDRAM_A8|NetColor=clYellow
-Net46=NetName=SDRAM_A9|NetColor=clYellow
-Net47=NetName=SDRAM_D0|NetColor=clYellow
-Net48=NetName=SDRAM_D1|NetColor=clYellow
-Net49=NetName=SDRAM_D10|NetColor=clYellow
-Net50=NetName=SDRAM_D11|NetColor=clYellow
-Net51=NetName=SDRAM_D12|NetColor=clYellow
-Net52=NetName=SDRAM_D13|NetColor=clYellow
-Net53=NetName=SDRAM_D14|NetColor=clYellow
-Net54=NetName=SDRAM_D15|NetColor=clYellow
-Net55=NetName=SDRAM_D2|NetColor=clYellow
-Net56=NetName=SDRAM_D3|NetColor=clYellow
-Net57=NetName=SDRAM_D4|NetColor=clYellow
-Net58=NetName=SDRAM_D5|NetColor=clYellow
-Net59=NetName=SDRAM_D6|NetColor=clYellow
-Net60=NetName=SDRAM_D7|NetColor=clYellow
-Net61=NetName=SDRAM_D8|NetColor=clYellow
-Net62=NetName=SDRAM_D9|NetColor=clYellow
+Net6=NetName=CRS_DV|NetColor=$00FF6EFF
+Net7=NetName=DISP_B0|NetColor=$00FFFF6E
+Net8=NetName=DISP_B1|NetColor=$00FFFF6E
+Net9=NetName=DISP_B2|NetColor=$00FFFF6E
+Net10=NetName=DISP_B3|NetColor=$00FFFF6E
+Net11=NetName=DISP_B4|NetColor=$00FFFF6E
+Net12=NetName=DISP_B5|NetColor=$00FFFF6E
+Net13=NetName=DISP_B6|NetColor=$00FFFF6E
+Net14=NetName=DISP_B7|NetColor=$00FFFF6E
+Net15=NetName=DISP_CLK|NetColor=$00FFFF6E
+Net16=NetName=DISP_DE|NetColor=$00FFFF6E
+Net17=NetName=DISP_EN|NetColor=$00FFFF6E
+Net18=NetName=DISP_G0|NetColor=$00FFFF6E
+Net19=NetName=DISP_G1|NetColor=$00FFFF6E
+Net20=NetName=DISP_G2|NetColor=$00FFFF6E
+Net21=NetName=DISP_G3|NetColor=$00FFFF6E
+Net22=NetName=DISP_G4|NetColor=$00FFFF6E
+Net23=NetName=DISP_G5|NetColor=$00FFFF6E
+Net24=NetName=DISP_G6|NetColor=$00FFFF6E
+Net25=NetName=DISP_G7|NetColor=$00FFFF6E
+Net26=NetName=DISP_HSYNC|NetColor=$00FFFF6E
+Net27=NetName=DISP_R0|NetColor=$00FFFF6E
+Net28=NetName=DISP_R1|NetColor=$00FFFF6E
+Net29=NetName=DISP_R2|NetColor=$00FFFF6E
+Net30=NetName=DISP_R3|NetColor=$00FFFF6E
+Net31=NetName=DISP_R4|NetColor=$00FFFF6E
+Net32=NetName=DISP_R5|NetColor=$00FFFF6E
+Net33=NetName=DISP_R6|NetColor=$00FFFF6E
+Net34=NetName=DISP_R7|NetColor=$00FFFF6E
+Net35=NetName=DISP_VSYNC|NetColor=$00FFFF6E
+Net36=NetName=ETH_INT|NetColor=$00FF6EFF
+Net37=NetName=ETH_RST|NetColor=$00FF6EFF
+Net38=NetName=MDC|NetColor=$00FF6EFF
+Net39=NetName=MDIO|NetColor=$00FF6EFF
+Net40=NetName=NetU3_1|NetColor=$00FF6EFF
+Net41=NetName=NetU3_154|NetColor=$00FF6EFF
+Net42=NetName=NetU3_157|NetColor=$00FF6EFF
+Net43=NetName=NetU3_2|NetColor=$00FF6EFF
+Net44=NetName=NetU3_33|NetColor=$00FF6EFF
+Net45=NetName=NetU3_41|NetColor=$00FF6EFF
+Net46=NetName=NetU3_42|NetColor=$00FF6EFF
+Net47=NetName=NetU3_53|NetColor=$00FF6EFF
+Net48=NetName=NetU3_54|NetColor=$00FF6EFF
+Net49=NetName=NetU3_55|NetColor=$00FF6EFF
+Net50=NetName=NetU3_92|NetColor=$00FF6EFF
+Net51=NetName=NetU7_10|NetColor=$00FF6EFF
+Net52=NetName=NetU7_11|NetColor=$00FF6EFF
+Net53=NetName=NetU7_15|NetColor=$00FF6EFF
+Net54=NetName=NetU7_16|NetColor=$00FF6EFF
+Net55=NetName=NetU7_17|NetColor=$00FF6EFF
+Net56=NetName=NetU7_20|NetColor=$00FF6EFF
+Net57=NetName=NetU7_21|NetColor=$00FF6EFF
+Net58=NetName=NetU7_22|NetColor=$00FF6EFF
+Net59=NetName=NetU7_23|NetColor=$00FF6EFF
+Net60=NetName=NetU7_26|NetColor=$00FF6EFF
+Net61=NetName=NetU7_9|NetColor=$00FF6EFF
+Net62=NetName=RCLK|NetColor=$00FF6EFF
+Net63=NetName=RXD0|NetColor=$00FF6EFF
+Net64=NetName=RXD1|NetColor=$00FF6EFF
+Net65=NetName=SDRAM_A0|NetColor=clYellow
+Net66=NetName=SDRAM_A1|NetColor=clYellow
+Net67=NetName=SDRAM_A10|NetColor=clYellow
+Net68=NetName=SDRAM_A11|NetColor=clYellow
+Net69=NetName=SDRAM_A2|NetColor=clYellow
+Net70=NetName=SDRAM_A3|NetColor=clYellow
+Net71=NetName=SDRAM_A4|NetColor=clYellow
+Net72=NetName=SDRAM_A5|NetColor=clYellow
+Net73=NetName=SDRAM_A6|NetColor=clYellow
+Net74=NetName=SDRAM_A7|NetColor=clYellow
+Net75=NetName=SDRAM_A8|NetColor=clYellow
+Net76=NetName=SDRAM_A9|NetColor=clYellow
+Net77=NetName=SDRAM_D0|NetColor=clYellow
+Net78=NetName=SDRAM_D1|NetColor=clYellow
+Net79=NetName=SDRAM_D10|NetColor=clYellow
+Net80=NetName=SDRAM_D11|NetColor=clYellow
+Net81=NetName=SDRAM_D12|NetColor=clYellow
+Net82=NetName=SDRAM_D13|NetColor=clYellow
+Net83=NetName=SDRAM_D14|NetColor=clYellow
+Net84=NetName=SDRAM_D15|NetColor=clYellow
+Net85=NetName=SDRAM_D2|NetColor=clYellow
+Net86=NetName=SDRAM_D3|NetColor=clYellow
+Net87=NetName=SDRAM_D4|NetColor=clYellow
+Net88=NetName=SDRAM_D5|NetColor=clYellow
+Net89=NetName=SDRAM_D6|NetColor=clYellow
+Net90=NetName=SDRAM_D7|NetColor=clYellow
+Net91=NetName=SDRAM_D8|NetColor=clYellow
+Net92=NetName=SDRAM_D9|NetColor=clYellow
+Net93=NetName=TXD0|NetColor=$00FF6EFF
+Net94=NetName=TXD1|NetColor=$00FF6EFF
+Net95=NetName=TXEN|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
